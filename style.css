@@ -1,0 +1,309 @@
+body {
+font-family: 'Montserrat', sans-serif;
+
+}
+
+/*//////CABEÇA//////*/
+header {
+	padding: 20px 0;
+	background: #BBBBBB
+}
+
+.caixa {
+	position: relative;
+	margin: 0 auto;
+	width: 940px
+
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0px;
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 15px; 
+	
+}
+
+nav a {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	color: #000000;
+}
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+
+}
+
+/*//////RODÁPE//////*/
+
+footer {
+	text-align: center;
+	background: url(bg.jpg);
+	padding: 40px 0;
+}
+
+.copyright {
+	font-size: 15px;
+	margin-top: 20px;
+	color: #FFFFFF
+}
+
+/*/////////PRODUTOS/////////////*/
+
+.produtos {
+	margin: 0 auto;
+	width: 100%;
+	padding: 50px 0;
+}
+
+
+.produtos li{
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+/*Esses 3 pontos abaixo fazem uma borda, podemos fazer dessas três formas
+ou fazer da forma unificada *border-color: #000000;**border-width: 3px;*
+*border-style: solid;* */
+   /*   Tamanho. Estilo. Cor */
+    border: 3px  solid   #000000;
+/* Utilizado para Arredondar As Bordas*/
+    border-radius: 10px;
+}
+/*Quando o Mouse estiver por Cima a Cor será alterada da Borda*/
+.produtos li:hover {
+	border-color: #C78C19;
+}
+/*Quandor estiver clicando com o mouse cor será alterada da Borda*/
+.produtos li:active {
+	border-color: #088C19;
+}
+/*Quandor estiver com o mouse em cima o tamanho do h2(titulo) será alterado*/
+.produtos li:hover h2{
+	font-size: 35px;
+}
+
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.preço-produto {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px
+}
+
+.produto-descrição {
+	font-size: 20px;
+}
+
+/*//////RODÁPE//////*/
+
+footer {
+	text-align: center;
+	background: url(bg.jpg);
+	padding: 40px 0;
+}
+
+.copyright {
+	font-size: 15px;
+	margin-top: 20px;
+	color: #FFFFFF
+}
+
+
+/*/////CONTATOS////////*/
+
+main {
+	}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend  {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	padding: 15px 0;
+	width:40%;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s background;
+	transition: 1s transform;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+table {
+	margin: 20px 40px;
+}
+
+thead {
+	font-weight: bold;
+	color: white;
+	background: #555555
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
+
+
+/*//////PaginaInicial////////*/
+
+
+/*/////BANNER/////*/
+
+.banner {
+	width: 100%
+}
+
+.tituloprincipal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	clear: left;
+	color: rgba(0, 0, 0, 1);
+}
+
+.principal{
+	width: 940px;
+	margin: 0 auto;
+	padding: 3em 0;
+	background: #FEFEFE
+}
+
+.principal p {
+	margin: 0 0 1em
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.utensilios {
+	margin: 0 20px 20px 0;
+	float: left;
+	width: 120px
+}
+
+.mapa {
+	padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #888888)
+}
+
+.mapa-conteudo{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}
+
+.imagembeneficios {
+	opacity: 1;
+	width: 60%;
+	transition: 400ms;
+	box-shadow: 10px 10px 30px 20px #000000;
+
+}
+
+.imagembeneficios:hover {
+	opacity: 0.3;
+
+}
+
+.conteudo-beneficio{
+	margin: 0 auto;
+	width: 640px
+	
+}
+
+.benefícios {
+	padding: 3em 0;
+	background: #888888
+
+}
+
+
+.lista-beneficio{
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.itens {
+	line-height: 1.5;
+}
+
+.itens:first-child{
+	font-weight: bold;
+}
+
+.itens:before {
+	content: "★"
+}
+
+.vídeo {
+	margin: 2em auto;
+	width: 560px;
+}
+
+@media screen and (max-width: 480px) { 
+	.caixa, .principal, .mapa-conteudo, .vídeo, .conteudo-beneficio, .produtos .caixa {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+	nav {
+		position: static;
+	}
+	.lista-beneficio, .imagembeneficios, {
+		width: 100%;
+	}
+
+}
+
